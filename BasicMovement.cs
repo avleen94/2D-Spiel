@@ -32,12 +32,6 @@ public class BasicMovement : MonoBehaviour {
 
         transform.Translate(movement);
         
-
-        /*anim.SetFloat("Horizontal", movement.x);
-        anim.SetFloat("Vertical", movement.y);
-        anim.SetFloat("Magnitude", movement.magnitude);
-
-        transform.position = transform.position + movement *5 * Time.deltaTime;*/
     }
 
     void FixedUpdate()
